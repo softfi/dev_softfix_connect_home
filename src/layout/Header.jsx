@@ -99,11 +99,11 @@ const Header = () => {
           {/* Sign In Dropdown */}
           <div className="relative">
             <button
-              onClick={() => setSignInDropdown(!signInDropdown)}
+              // onClick={() => setSignInDropdown(!signInDropdown)}
               className="text-sm font-medium text-violet-600 hover:underline flex items-center"
             >
               Sign In
-              <svg
+              {/* <svg
                 className="ml-1 w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -116,9 +116,9 @@ const Header = () => {
                   strokeLinejoin="round"
                   d="M19 9l-7 7-7-7"
                 />
-              </svg>
+              </svg> */}
             </button>
-            {signInDropdown && (
+            {/* {signInDropdown && (
               <div className="z-20 absolute right-0 mt-2 w-40 bg-black/5 backdrop-blur rounded-lg shadow-lg transition-all duration-700">
                 <a
                   href="#personal-account"
@@ -139,7 +139,7 @@ const Header = () => {
                   Login
                 </a>
               </div>
-            )}
+            )} */}
           </div>
         </div>
 

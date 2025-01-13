@@ -13,7 +13,7 @@ const CircularFeatures = () => {
         </h2>
 
         {/* Circle and Features */}
-        <div className="relative flex items-center justify-center min-h-screen">
+        <div className="relative flex items-center justify-center min-h-[50vh] md:min-h-screen">
           {/* Central Image */}
           <div className="relative z-10 w-32 sm:w-64 md:w-80 transition-all">
             <img
