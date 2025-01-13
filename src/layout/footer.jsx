@@ -18,9 +18,16 @@ const Footer = () => {
     {
       title: "Contact Us",
       links: [
-        "Phone: +91-8189010042",
-        "Email: info@softfix.in",
-        "Address: 4/489 Vibhav khand Gomti nagar, Lucknow UP India - 226010",
+        <span>
+          <strong>Phone</strong>: +91-8189010042
+        </span>,
+        <span>
+          <strong>Email</strong>: info@softfix.in
+        </span>,
+        <span>
+          <strong>Address</strong>: 4/489 Vibhav khand Gomti nagar, Lucknow UP
+          India - 226010
+        </span>,
       ],
     },
     // {
@@ -68,8 +75,8 @@ const Footer = () => {
     <footer className="bg-gray-100 py-10 ">
       {/* Footer Content */}
       <div className="container mx-auto px-4 view-port">
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-8">
-          <div className="col-span-2">
+        <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
+          <div className="col-span-2 md:col-span-3">
             <div className="image-container w-52 h-12">
               <img src={logoImage} alt="softfix-logo" />
             </div>
@@ -114,8 +121,7 @@ const Footer = () => {
         </div> */}
 
         <p className="text-sm text-gray-500 mt-4">
-          Contact us | Privacy | Terms of use | About us | Legal | © Softfix
-          2024
+          Contact us | Privacy | Terms of use | About us | © Softfix 2024
         </p>
       </div>
     </footer>
