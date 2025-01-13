@@ -35,13 +35,13 @@ const HeroComponent = () => {
           <div className="relative z-10 border-8 overflow-hidden p-2 max-w-64 min-h-[31rem] border-black border-6 bg-gradient-to-r from-violet-300 via-cyan-100 to-blue-300  rounded-3xl space-y-1 shadow-xl">
             {/* Card: User Interaction */}
 
-            <div className=" px-3 my-2 w-full transform ">
+            <div className="w-full  ">
               <div className="flex justify-center">
                 <div className="w-16 rounded-full h-4 bg-black "></div>
               </div>
             </div>
             <div className="">
-              <div className=" px-3 mt-5 mb-[3rem] w-full transform ">
+              <div className=" px-3 mt-5 mb-[3rem] w-full  ">
                 <div className="flex justify-center">
                   <div className="">
                     <p className="text-5xl text-white">15:15</p>
@@ -112,7 +112,7 @@ const HeroComponent = () => {
             </div>
             <div className=" absolute bottom-0 px-3 my-2 w-full transform ">
               <div className="flex justify-center">
-                <div className="w-20  h-1 bg-white/60"></div>
+                <div className="w-20  h-1 bg-white/80 rounded-full"></div>
               </div>
             </div>
           </div>
@@ -121,8 +121,8 @@ const HeroComponent = () => {
           <div className="h-11 w-2 bg-black rounded-lg absolute left-[9.2rem] bottom-[20rem] "></div>
           <div className="h-11 w-2 bg-black rounded-lg absolute left-[9.2rem] bottom-[17.2rem] "></div>
           <div className="h-12 w-2 bg-black rounded-lg absolute right-[9.2rem] bottom-[18rem] "></div>
-          <div className="absolute -top-10 -left-10 w-32 h-32 bg-violet-200 rounded-full opacity-70 z-0"></div>
-          <div className="absolute -bottom-10 -right-12 size-20 lg:size-24 bg-gradient-to-b rounded-full opacity-25 from-violet-500 to-[#D50683] "></div>
+          <div className="absolute -top-10 -left-8 w-32 h-32 bg-violet-200 rounded-full opacity-70 z-0"></div>
+          <div className="absolute -bottom-10 -right-8 size-20 lg:size-24 bg-gradient-to-b rounded-full opacity-25 from-violet-500 to-[#D50683] "></div>
         </div>
       </div>
     </div>

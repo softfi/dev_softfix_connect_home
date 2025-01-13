@@ -179,12 +179,12 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a
-                href="#features"
+              <div
+                onClick={() => navigate("/features")}
                 className="text-gray-600 hover:text-violet-600"
               >
                 Features
-              </a>
+              </div>
             </li>
             <li>
               <a
